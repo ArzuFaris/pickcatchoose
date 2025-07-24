@@ -15,8 +15,12 @@
       <!-- Cat image -->
       <!-- Buttons for desktop users -->
       <div id="swipe-buttons" class="flex w-full mt-0 overflow-hidden shadow-lg">
-        <button id="dislike-btn" class="w-1/2 bg-red-700 text-white px-0 py-3 text-lg font-bold hover:bg-red-600 focus:bg-red-700 focus:outline-none border-r border-white">Dislike</button>
-        <button id="like-btn" class="w-1/2 bg-green-700 text-white px-0 py-3 text-lg font-bold hover:bg-green-600 focus:bg-green-700 focus:outline-none border-l border-white">Like</button>
+        <button id="dislike-btn" class="w-1/2 bg-red-500 text-white px-0 py-3 text-lg font-bold hover:bg-red-600 focus:bg-red-700 focus:outline-none border-r border-white">
+          <svg class="w-6 h-6 text-gray-800 mx-auto dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/></svg>
+        </button>
+        <button id="like-btn" class="w-1/2 bg-green-500 text-white px-0 py-3 text-lg font-bold hover:bg-green-600 focus:bg-green-700 focus:outline-none border-l border-white">
+          <svg class="w-6 h-6 text-gray-800 mx-auto dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg>
+        </button>
       </div>
       <!-- Summary of liked cats -->
     </div>
